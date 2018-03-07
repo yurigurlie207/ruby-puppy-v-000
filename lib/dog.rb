@@ -13,6 +13,10 @@ class Dog
     @@all = []
   end
 
+  def name
+    @name
+  end
+  
   def self.all
     @@all.each do
       puts "#{name.name}"
