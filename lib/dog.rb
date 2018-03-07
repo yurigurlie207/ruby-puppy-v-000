@@ -12,6 +12,9 @@ class Dog
   end
 
   def self.all
+    @@all.each do
+      
+    end
   end
 
 end
